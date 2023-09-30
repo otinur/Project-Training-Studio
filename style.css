@@ -1,0 +1,544 @@
+/* reset and common code starts here  */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    list-style-type:none;
+}
+html{
+    scroll-behavior: smooth;
+}
+.container{
+    max-width: 1170px;
+    margin: 0 auto;
+    box-sizing: border-box;
+}
+
+/* font-family: 'Bitter', serif;
+font-family: 'Fira Sans', sans-serif;
+font-family: 'Italianno', cursive;
+font-family: 'Kalam', cursive;
+font-family: 'Montserrat', sans-serif;
+font-family: 'Roboto', sans-serif;
+font-family: 'Satisfy', cursive; */
+
+
+
+ .btn{
+    border:none;
+    border-radius: 0.2rem;
+    text-transform: uppercase;
+    padding:.6rem ;
+}
+
+
+/* reset and common code ends here  */
+
+/* header design starts here  */
+
+.header{
+    height: 30rem;
+    max-width: 100%;
+    background-image: url(images/banner-1.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size:cover ;
+    opacity: .9;
+}
+.nav-logo-1{
+    color: #fff;
+}
+.nav-logo-1-span {
+    
+    font-weight: bold;
+    color: rgb(225, 45, 45);
+    
+}
+.nav-all-items{
+    height: 3rem;
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    background-color: #f4faff2e;
+    font-family: 'Roboto', sans-serif;
+    align-items: center;
+}
+
+.nav-items a{
+    margin: 0 1rem;
+    color: white;
+    text-transform: uppercase;
+    font-size: .8rem;
+}
+.nav-items a:hover{
+    text-decoration: underline red .2rem;
+    /* color: red; */
+}
+.nav-items-btn{
+    background-color:rgb(225, 45, 45);
+    color: white;
+    border-radius: 0;
+}
+
+.heading-desc{
+    text-align: center;
+    align-items: center;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    font-family: 'Roboto', sans-serif;
+    margin-top: 10rem;
+
+}
+.heading-desc-p{
+    margin-bottom: 1rem;
+    font-size: .8rem;
+    font-weight: bold;
+}
+.heading-desc-h1{
+    margin-bottom: 1rem;
+    font-size: 3rem;
+    font-weight: bold;
+}
+
+/* header design ends here  */
+
+/* choose program desgin starts here */
+
+.choose-program{
+    width: 100%;
+    padding: 2rem;
+   
+}
+.choose-program-heading{
+    text-align: center;
+    margin-top: 4rem;
+}
+.choose-program-h2{
+    font-family: 'Roboto', sans-serif;
+    text-transform: uppercase;
+    font-size: 1.5rem;
+    font-weight: bold;
+    margin: 1rem auto;
+}
+.choose-program-icon-p img{
+    width: 4rem;
+    height: 1rem;
+}
+.choose-program-heading-desc-p{
+    font-size: .8rem;
+    margin: 1rem auto;
+}
+
+.choose-program-desc-all{ 
+    margin-top: 3rem;
+}
+.choose-all-items-desc{
+    margin: 1rem 0;
+    display: grid;
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+    gap: 2rem;
+}
+.chose-program-desc-items-all{
+    display:flex;
+    align-items: center;
+    width: 100%;
+    gap:1rem;
+   
+}
+.choose-logo{
+    background-color:rgb(225, 45, 45);
+    border-radius: .3rem;
+}
+.choose-logo-1{
+    font-size: 2.5rem;
+    color: white;
+    padding: 1rem;
+
+}
+.chose-desc-h3{
+    font-family: 'Roboto', sans-serif;
+    font-weight: bold;
+}
+.choose-desc-span{
+    color: blue;
+}
+.choose-desc-p{
+    font-size: .8rem;
+}
+.choose-desc a{
+    color: rgb(225, 45, 45);
+    font-size: .9rem;
+    font-weight: bold;
+}
+
+
+/* choose program desgin ends here */
+
+/* 2nd banner design starts here */
+
+.banner-2nd{
+    margin-top: 5rem;
+    background-image: url(images/banner_2.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 20rem;
+    opacity: .9;
+    text-align: center;
+    font-family: 'Roboto', sans-serif;
+}
+.banner-2nd-desc-all{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.banner-2nd h1{
+    color: white;
+    margin: 8rem 0 1rem 0;
+    font-weight: bold;
+}
+.banner-2nd-p{
+    color: #fff;
+   font-size: .8rem;
+   text-transform: capitalize;
+}
+.banner-2nd-button{
+    background-color:rgb(225, 45, 45) ;
+    color: #fff;
+    margin: 1rem 0;
+}
+
+
+
+/* 2nd banner design ends here */
+
+/* classes design starts here */
+
+.classes-desc-all{
+    margin-top: 4rem;
+    display: flex;
+   
+   
+}
+.classes-aside{
+    flex: 1;
+}
+.classes-icon-desc{
+    display: flex;
+    gap: 1rem;
+    border-radius: .1rem;
+    box-shadow: 1px 0px 1px 2px gainsboro;
+    margin-bottom: 2.68rem;
+    width: 20rem;
+    height: 4rem;
+    padding:1.5rem;
+}
+.classes-icon{
+    font-size: 1.5rem;
+    color: rgb(225, 45, 45);
+}
+.classes-h3{
+    text-transform: capitalize;
+    font-size: 1.2rem;
+    font-family: 'Roboto', sans-serif;
+    font-weight: bold;
+}
+
+.classes-btn{
+    width:20rem;
+    background-color: rgb(225, 45, 45);
+    color: #fff;
+    text-transform: capitalize;
+    font-size: 1rem;
+}
+.classes-article{
+    flex: 2;
+}
+.classes-img-desc img{
+    width: 100%;
+    height: 20rem;
+}
+.classes-h2{
+    font-family: 'Roboto', sans-serif;
+    font-size: 1.5rem;
+    text-transform: capitalize;
+    font-weight: bold;
+    margin: 1rem 0;
+}
+.classes-p{
+    font-size: .8rem;
+    text-align: justify;
+}
+.classes-button{
+    background-color: rgb(225, 45, 45);
+    color: #fff;
+    margin: 1rem 0;
+    font-size: .8rem;
+}
+
+
+/* classes design ends here */
+
+/* classes-schedule design starts here */
+
+.classes-schedule{
+    background-color: #252c3d;
+    height: 48rem;
+}
+.classes-schedule-heading{
+    padding: 2rem 0;
+}
+.tabel-p{
+    text-align: center;
+    font-weight: bold;
+    font-family: 'Roboto', sans-serif;
+    margin-top: 2rem;
+}
+.main-table{
+    font-family: 'Roboto', sans-serif;
+    text-align: center;
+    border-collapse: collapse;
+    border: 1px solid #fff;
+    margin: 2rem auto;
+}
+.main-table th , td{
+    border: 1px solid #fff;
+    padding: 2rem;
+    font-size: .8rem;
+    font-weight: bold;
+    font-family: 'Roboto', sans-serif;   
+}
+
+/* classes-schedule design ends here */
+
+/* exprat cart design starts here */
+
+.expert-cart{
+    display: grid;
+    grid-template-columns: repeat(3, minmax(0,1fr));
+    gap: 1rem;
+    margin: 2rem;
+}
+.expert-cart-all{
+    padding: 1.5rem;
+    box-shadow: 1px 0px 1px 2px gainsboro;
+    width: 100%;
+    height: 100%;
+}
+.expert-cart-all img{
+    height: 18rem;
+    width: 100%;
+    display: inline-block;
+    border-radius: .6rem;
+}
+.expert-cart-desc{
+    margin: 0;
+}
+.cart-p{
+    margin: 1rem 0;
+}
+.cart-h2{
+    font-family: 'Roboto', sans-serif;   
+    margin-bottom: 1rem;
+    font-weight: bold;
+}
+.cart-desc-p{
+    font-size: .9rem;
+    margin-bottom: .5rem;
+    text-align: justify;
+}
+.cart-desc-icon-1{
+    font-size: 1.1rem;
+    margin: 0 .3rem;
+}
+.cart-desc-icon-1:first-child{
+    margin: 0;
+}
+
+
+/* exprat cart design ends here */
+
+/* contact design starts here */
+
+.contact{
+    display: grid;
+    grid-template-columns: repeat(2, minmax(0,1fr));
+}
+.map .map-1{
+    height: 100%;
+    width: 100%;
+
+}
+.contact-items{
+    height: 100%;
+    width: 100%;
+    background-color: #252c3d;
+    padding: 3rem;
+
+}
+.contact-all-items{
+    margin: 0 auto;
+    background-color: #fff;
+    padding: 1rem;
+}
+.input-items{
+    display: flex;
+    gap: 1rem;
+    height: 2rem;
+    width: 100%;
+    margin: 1rem 0;
+    border-radius: .3rem;
+}
+.contact-all-items input{
+    width: 100%;
+    height: 2rem;
+    margin-bottom: 1rem;
+    border-radius: .3rem;
+    padding: 1rem;
+}
+.contact-all-items textarea{
+    width: 100%;
+    height: 10rem;
+    resize: none;
+    border-radius: .3rem;
+    padding: 1rem;
+}
+.contact-btn{
+    background-color: rgb(225, 45, 45);
+    color: #fff;
+    margin:1rem 0;
+}
+
+/* contact design ends here */
+/* footer design starts here  */
+
+.footer{
+    height: 4rem;
+    width: 100%;
+   
+}
+.footer h3{
+    text-align: center;
+    font-family: 'Roboto', sans-serif;   
+    align-items: center;
+    padding-top: 1.5rem;
+    
+}
+/* footer design ends here  */
+
+/* responsive design starts here  */
+
+@media (max-width:992px){
+    .classes-desc-all{
+        margin-top: 4rem;
+        display: flex;
+        flex-direction: column;
+        gap: 2rem;
+       
+       
+    }
+    .classes-aside{
+        flex: 0;
+        text-align: center;
+        margin: 2rem auto;
+
+    }
+    .classes-icon-desc{
+        display: flex;
+        gap: 1rem;
+        border-radius: .1rem;
+        box-shadow: 1px 0px 1px 2px gainsboro;
+        margin-bottom: 2rem;
+        width: 20rem;
+        height: 4rem;
+        padding:1.5rem;
+        text-align: center;
+       
+    }
+    .classes-article{
+        flex: 0;
+    }
+}
+
+@media (max-width:768px){
+    .nav-all-items{
+        height:auto;
+        flex-direction: column;
+    }
+    .choose-all-items-desc{
+        margin: 1rem 0;
+        display: grid;
+        grid-template-columns: repeat(1, minmax(0, 1fr));
+        gap: 2rem;
+    }
+    .banner-2nd-p{
+        color: #fff;
+       font-size: .7rem;
+       text-transform: capitalize;
+    }
+    .banner-2nd h1{
+        margin: 6rem 0 1rem 0;
+    }
+    .classes-schedule{
+        height: 44rem;
+    }
+    .main-table th , td{
+        padding: 1.8rem;
+        font-size: .6rem;
+    }
+    .expert-cart{
+        grid-template-columns: repeat(1, minmax(0,1fr));
+    }
+    .expert-cart-all img{
+        height: 18rem;
+        width: 100%;
+        display: inline-block;
+        border-radius: .6rem;
+    }
+   
+
+}
+
+@media (max-width:600px){
+    .nav-items{
+        height:auto;
+        display: flex;
+        flex-direction: column;
+    }
+    .nav-items a{
+        margin: 1rem auto;
+    }
+    .header{
+        height: 40rem;
+    }
+    .heading-desc-h1{
+        font-size: 2rem;
+    }
+    .banner-2nd h1{
+        font-size: 2rem;
+    }
+    .classes-schedule{
+        height: 40rem;
+    }
+    .main-table th , td{
+        padding: 1.1rem;
+        font-size: .6rem;
+    }
+    .contact-all-items textarea{
+        width: 100%;
+        height: 10rem;
+        resize: none;
+        border-radius: .3rem;
+        padding: 1rem;
+    }
+    .contact{
+        display: grid;
+        grid-template-columns: repeat(1, minmax(0,1fr));
+    }
+}
+
+/* responsive design ends here  */
